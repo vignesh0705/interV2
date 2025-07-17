@@ -12,8 +12,8 @@ export default function Home() {
     return (
       <>
         <UserNavbar />
-        <h1>you are signin in as {session.user.email} </h1>
-        <h2>User Name: {session.user.name}</h2>
+        <h1 className="home">you are signin in as:<br/> Email: {session.user.email} </h1>
+        <h2 className="name">User Name: {session.user.name}</h2>
         {/* <button onClick={()=> signOut()}>signout</button> */}
       </>
     );
