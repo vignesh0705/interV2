@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo.logo-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.navbar-links button {
+  background-color: #6c63ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links button:hover {
+  background-color: #5146d8;
+}
+
+.login_area {
+  margin-top: 500px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.form_area h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form_area form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form_area input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.form_area input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.form_area button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form_area button:hover {
+  background-color: #5848dd;
+}
+
+.form_area p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.form_area span {
+  color: #6c63ff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: text-decoration 0.2s;
+}
+
+.form_area span:hover {
+  text-decoration: underline;
+}
+
